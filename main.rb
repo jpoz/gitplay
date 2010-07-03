@@ -9,6 +9,12 @@ end
 post '/' do
   erb :index
 end
+get '/dedications' do
+  erb :index
+end
+post '/dedications' do
+  erb :index
+end
 
 get '/awesome' do
   haml :awesome
