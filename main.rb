@@ -3,7 +3,7 @@ require 'sinatra'
 require 'haml'
 
 get '/' do
-  haml :index
+  erb :index
 end
 
 get '/awesome' do
