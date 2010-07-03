@@ -6,6 +6,10 @@ get '/' do
   erb :index
 end
 
+post '/' do
+  erb :index
+end
+
 get '/awesome' do
   haml :awesome
 end
